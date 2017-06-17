@@ -1,0 +1,33 @@
+img{
+  margin: center;
+}
+
+body{
+
+  background-color: #ffcda8;
+}
+
+.tenhofome{
+	text-align: center;
+
+}
+
+.tenhofome img{
+	width: 100%;
+
+
+}
+.btn{
+  padding-top: 3px;
+    padding-right: 650px;
+    padding-bottom: 6px;
+    padding-left: 300px;
+    border-style: hidden;
+
+}
+
+
+span{
+  padding-left: 20px;
+
+}
