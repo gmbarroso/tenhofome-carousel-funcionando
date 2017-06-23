@@ -26,4 +26,5 @@ function showSlides(n) {
 
 window.onload = function(){
   showSlides(slideIndex);
+  showSlides2(slideIndex2);
 }

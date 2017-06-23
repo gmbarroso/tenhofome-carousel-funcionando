@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
   <script type="text/javascript" src="strip.js"></script>
+  <script type="text/javascript" src="strip2.js"></script>
 
 
 </head>
@@ -33,52 +34,163 @@
   <br>
 
   <div class="rolagens">
-    <!-- ===================================================================================== -->
+
     <div class="porquilo">
-      <h4>Por Quilo</h4>
+      <h4>A la Carte</h4>
       <div class="slideshow-container col-md-8 col-md-offset-2">
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
         <div class="mySlides col-md-10 col-md-offset-1">
           <div class="col-md-6">
-            <img src="img/frangaria.jpg" style="width:300px">
+            <img src="img/praca-sao-lourenco.jpg" style="width:300px">
           </div>
           <div class="col-md-4 text">
-            <p>Restaurante frangaria</p>
-            <p>Distância: 250m</p>
-            <p>Preço acessível</p>
+            <p>Restaurante: Praça São Lourenço</p>
+            <p>Distância do Cubo: 300m</p>
+            <p>Localização: Rua Casa do Ator, 608</p>
+            <p>Preço médio: $$$$</p>
+            <p>Dica: Linguado em crosta sobre cama de legumes e molho de maracujá.</p>
           </div>
         </div>
-
         <div class="mySlides col-md-10 col-md-offset-1">
           <div class="col-md-6">
-            <img src="img/villalucchese.jpg" style="width:300px">
+            <img src="img/portucho.jpg" style="width:300px">
           </div>
           <div class="col-md-4 text">
-            <p>Restaurante frangaria</p>
-            <p>Distância: 250m</p>
-            <p>Preço acessível</p>
+            <p>Restaurante: Portucho</p>
+            <p>Distância do Cubo: 500m</p>
+            <p>Localização: Avenida Doutor Cardoso de Melo, 1261</p>
+            <p>Preço médio: $$$</p>
+            <p>Dica: Bife Ancho</p>
           </div>
         </div>
-
-
+        <div class="mySlides col-md-10 col-md-offset-1">
+          <div class="col-md-6">
+            <img src="img/lamexicana.png" style="width:300px">
+          </div>
+          <div class="col-md-4 text">
+            <p>Restaurante: La Mexicana</p>
+            <p>Distância do Cubo: 300m</p>
+            <p>Localização: Rua Ministro Jesuino Cardoso, 515</p>
+            <p>Preço médio: $$</p>
+            <p>Dica: Taco la Mexicana</p>
+          </div>
+        </div>
       </div>
       <br>
 
       <div style="text-align:center">
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
       </div>
     </div>
-    <!-- ===================================================================================== -->
+
+    <div class="alacarte">
+      <h4>Por quilo</h4>
+      <div class="slideshow-container col-md-8 col-md-offset-2">
+        <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+
+        <div class="mySlides2 col-md-10 col-md-offset-1">
+          <div class="col-md-6">
+            <img src="img/gaia_grill.jpg" style="width:300px">
+          </div>
+          <div class="col-md-4 text">
+            <p>Restaurante: Gaia Grill</p>
+            <p>Distância do Cubo: 850m</p>
+            <p>Localização: Doutor Cardoso de Melo, 1650</p>
+            <p>Preço médio: $$</p>
+            <p>Dica: Ótimo atendimento e agilidade para pagar.</p>
+          </div>
+        </div>
+        <div class="mySlides2 col-md-10 col-md-offset-1">
+          <div class="col-md-6">
+            <img src="img/meio_quilo.jpg" style="width:300px">
+          </div>
+          <div class="col-md-4 text">
+            <p>Restaurante: Meio Quilo</p>
+            <p>Distância do Cubo: 350m</p>
+            <p>Localização: Rua Gomes de Carvalho 1090</p>
+            <p>Preço médio: $$$</p>
+            <p>Dica: Grande variedade todos os dias</p>
+          </div>
+        </div>
+        <div class="mySlides2 col-md-10 col-md-offset-1">
+          <div class="col-md-6">
+            <img src="img/santa_hora.jpg" style="width:300px">
+          </div>
+          <div class="col-md-4 text">
+            <p>Restaurante: Santa Hora</p>
+            <p>Distância do Cubo: 750m</p>
+            <p>Localização: R. Ramos Batista, 170</p>
+            <p>Preço médio: $$</p>
+            <p>Dica: Muita opção de comida saudável.</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div style="text-align:center">
+        <span class="dot2" onclick="currentSlide2(1)"></span>
+        <span class="dot2" onclick="currentSlide2(2)"></span>
+        <span class="dot2" onclick="currentSlide2(3)"></span>
+      </div>
+    </div>
+    <br>
+<!-- <div class="vegetariano">
+      <h4>Vegetariano</h4>
+      <div class="slideshow-container col-md-8 col-md-offset-2">
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="mySlides col-md-10 col-md-offset-1">
+          <div class="col-md-6">
+            <img src="img/praca-sao-lourenco.jpg" style="width:300px">
+          </div>
+          <div class="col-md-4 text">
+            <p>Restaurante: Taste and See</p>
+            <p>Distância do Cubo: 950m</p>
+            <p>Localização: Alameda Raja Gabaglia, 254</p>
+            <p>Preço médio: $$</p>
+            <p>Dica: Taste Árabe</p>
+          </div>
+        </div>
+        <div class="mySlides col-md-10 col-md-offset-1">
+          <div class="col-md-6">
+            <img src="img/portucho.jpg" style="width:300px">
+          </div>
+          <div class="col-md-4 text">
+            <p>Restaurante: Nutrisom</p>
+            <p>Distância do Cubo: 500m</p>
+            <p>Localização: Rua Ramos Batista, 443</p>
+            <p>Preço médio: $$$</p>
+            <p>Dica: Não esqueçam da sobremesa</p>
+          </div>
+        </div>
+        <div class="mySlides col-md-10 col-md-offset-1">
+          <div class="col-md-6">
+            <img src="img/lamexicana.png" style="width:300px">
+          </div>
+          <div class="col-md-4 text">
+            <p>Restaurante: Aquelle Lugar Natural</p>
+            <p>Distância do Cubo: 850m</p>
+            <p>Localização: Rua Ministro Jesuino Cardoso, 515</p>
+            <p>Preço médio: $$</p>
+            <p>Dica: Avenida Dr Cardoso de Melo, 1669</p>
+          </div>
+        </div>
+      </div>
+    </div>
+-->
 
 
-    <!-- ================================================================================= -->
+
 
     <div class="mapa">
-      <iframe src="https://www.google.com/maps/d/embed?mid=1WyYGBbrErQormQOaM3-GMJ8XkcE&hl=en" width=100% height="480"></iframe>
+      <iframe src="https://www.google.com/maps/d/embed?mid=1RA5rS202dZGvcks_oHhZHHuDbNc" width=100% height="480"></iframe>
     </div>
+
 
     <div class="footer" style="border-top: 2px solid black">
       <div class="contato">
