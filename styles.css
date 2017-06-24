@@ -1,19 +1,48 @@
 img{
   margin: center;
-  height: 200px;
+  width: 100%;
 }
 
 body{
+  background-color: #db1c1c;
+  font-family: 'Suez One', serif;
+  color: white;
+  margin-bottom: 0px;
+}
 
-  background-color: #e6e6e6;
+.menu {
+  background-color: #1e292f;
+  color: white;
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 32px;
+  font-family: 'Lobster';
+  margin-bottom: 35px;
+
+}
+
+.col-md-4 {
+  text-align: center;
 }
 
 h4{
-  background-color: #4D6A78;
+  background-color: #595959;
   color: white;
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
+  font-size: 28px;
+  font-family: 'Lobster';
+
+}
+
+button {
+  text-align: center;
 
 }
 
@@ -21,6 +50,7 @@ h4{
   text-align: center;
 
 }
+
 
 .tenhofome img{
   width: 100%;
@@ -30,17 +60,20 @@ h4{
 .btn{
 
   padding-top: 3px;
-  padding-right: 650px;
-  padding-bottom: 6px;
-  padding-left: 300px;
+  padding-right: 100%;
+  text-align: center;
   border-style: hidden;
   border-radius: 0;
 
 }
 
+.btn btn-success {
+  width:100%;
+
+}
+
 .menu {
   padding-left: 0;
-background-color: grey;
 }
 
 .teste {
@@ -48,20 +81,25 @@ background-color: grey;
 }
 
 .linha{
-      border-top: 02px solid black;
+  border-top: 02px solid black;
 }
 
 .footer{
+
   width: 100%;
-    margin-left: 0;
-
-
+  margin-top: 10px;
+  color: white;
 }
 
 a {
-    color: black;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
+
+.footer a{
+  color: black;
+}
+
 ul{
     list-style-type: none;
     padding-left: 0;
@@ -69,17 +107,25 @@ ul{
 .contato {
     display: flex;
     font-weight: bolder;
-    /*text-align: center;*/
-    padding-left: 350px;
+    color: black;
+    font-size: 16px;
+    margin: 20px;
+    padding-left: 70px;
+    margin-left: 20px;
 
 }
+
 .contato div {
     width: 50%;
 }
 .sitemap {
     display: flex;
-    padding-left: 350px;
-    /*text-align: center;*/
+    color: black;
+    font-size: 14px;
+    margin: 0px;
+    padding-left: 70px;
+    margin-left: 20px;
+    padding-bottom: 20px;
 }
 
 .sitemap div{
@@ -87,8 +133,9 @@ ul{
 }
 
 li{
-    margin: 5px 0px;
+    margin: 10px 0px;
 }
+
 
 * {box-sizing:border-box}
 
@@ -101,12 +148,12 @@ li{
 }
 
 .mySlides {
-    display: none;
+  display: none;
 
 }
 
 .mySlides2 {
-    display: none;
+  display: none;
 
 }
 
@@ -203,19 +250,19 @@ li{
 }
 
 @media (max-width: 600px) {
-    .contato{
-        display: block;
-    }
+  .contato{
+    display: block;
+  }
 
-   .sitemap{
-        flex-wrap: wrap;
-    }
+  .sitemap{
+    flex-wrap: wrap;
+  }
 
-   .sitemap div{
-        width: 100%;
-    }
+  .sitemap div{
+    width: 100%;
+  }
 
-   .contato div{
-        width: 100%
-    }
+  .contato div{
+    width: 100%
+  }
 }
